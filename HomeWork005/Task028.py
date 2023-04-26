@@ -8,10 +8,7 @@ def sum(a, b):
     if a == 0:
         return b
     elif b == 0:
-        return a
-    elif b == a == 0:
-        return 0
-    
+        return a    
     return sum(a - 1, b + 1)
 
 num1 = int(input("Введите первое число: "))
